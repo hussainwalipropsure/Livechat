@@ -1,0 +1,1134 @@
+Nov 01 09:35:21 [Warning] [default] [default] PDOException Object
+(
+    [message:protected] => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_userdep' doesn't exist
+    [string:Exception:private] => PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_userdep' doesn't exist in /home/livechat/public_html/lib/core/lhchat/lhchat.php:914
+Stack trace:
+#0 /home/livechat/public_html/lib/core/lhchat/lhchat.php(914): PDOStatement->execute()
+#1 /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php(2): erLhcoreClassChat::isOnline()
+#2 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#3 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#4 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 42S02
+    [file:protected] => /home/livechat/public_html/lib/core/lhchat/lhchat.php
+    [line:protected] => 914
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhchat/lhchat.php
+                    [line] => 914
+                    [function] => execute
+                    [class] => PDOStatement
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php
+                    [line] => 2
+                    [function] => isOnline
+                    [class] => erLhcoreClassChat
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42S02
+            [1] => 1146
+            [2] => Table 'livechat.lh_userdep' doesn't exist
+        )
+
+)
+
+Nov 01 09:35:36 [Warning] [default] [default] PDOException Object
+(
+    [message:protected] => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_userdep' doesn't exist
+    [string:Exception:private] => PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_userdep' doesn't exist in /home/livechat/public_html/lib/core/lhchat/lhchat.php:914
+Stack trace:
+#0 /home/livechat/public_html/lib/core/lhchat/lhchat.php(914): PDOStatement->execute()
+#1 /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php(2): erLhcoreClassChat::isOnline()
+#2 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#3 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#4 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 42S02
+    [file:protected] => /home/livechat/public_html/lib/core/lhchat/lhchat.php
+    [line:protected] => 914
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhchat/lhchat.php
+                    [line] => 914
+                    [function] => execute
+                    [class] => PDOStatement
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php
+                    [line] => 2
+                    [function] => isOnline
+                    [class] => erLhcoreClassChat
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/8a3583d288c48e35c10b1e624a6ede90.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42S02
+            [1] => 1146
+            [2] => Table 'livechat.lh_userdep' doesn't exist
+        )
+
+)
+
+Nov 01 09:36:33 [Warning] [default] [default] PDOException Object
+(
+    [message:protected] => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_rolefunction' doesn't exist
+    [string:Exception:private] => PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechat.lh_rolefunction' doesn't exist in /home/livechat/public_html/lib/core/lhpermission/lhrole.php:109
+Stack trace:
+#0 /home/livechat/public_html/lib/core/lhpermission/lhrole.php(109): PDOStatement->execute()
+#1 /home/livechat/public_html/lib/core/lhuser/lhuser.php(472): erLhcoreClassRole::accessArrayByUserID()
+#2 /home/livechat/public_html/lib/core/lhuser/lhuser.php(465): erLhcoreClassUser->generateAccessArray()
+#3 /home/livechat/public_html/lib/core/lhuser/lhuser.php(415): erLhcoreClassUser->accessArray()
+#4 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(45): erLhcoreClassUser->hasAccessTo()
+#5 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#6 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#7 {main}
+    [code:protected] => 42S02
+    [file:protected] => /home/livechat/public_html/lib/core/lhpermission/lhrole.php
+    [line:protected] => 109
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhpermission/lhrole.php
+                    [line] => 109
+                    [function] => execute
+                    [class] => PDOStatement
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhuser/lhuser.php
+                    [line] => 472
+                    [function] => accessArrayByUserID
+                    [class] => erLhcoreClassRole
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhuser/lhuser.php
+                    [line] => 465
+                    [function] => generateAccessArray
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhuser/lhuser.php
+                    [line] => 415
+                    [function] => accessArray
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 45
+                    [function] => hasAccessTo
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 42S02
+            [1] => 1146
+            [2] => Table 'livechat.lh_rolefunction' doesn't exist
+        )
+
+)
+
+Nov 10 15:40:05 [Warning] [default] [default] ezcPersistentQueryException Object
+(
+    [message:protected] => A query failed internally in Persistent Object: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column &#039;api_key&#039; at row 1 Query: &#039;INSERT INTO `lh_abstract_rest_api_key_remote` ( `host`, `name`, `username`, `position`, `api_key`, `active` ) VALUES ( :ezcValue1, :ezcValue2, :ezcValue3, :ezcValue4, :ezcValue5, :ezcValue6 )&#039;
+    [string:Exception:private] => ezcPersistentQueryException: A query failed internally in Persistent Object: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column &#039;api_key&#039; at row 1 Query: &#039;INSERT INTO `lh_abstract_rest_api_key_remote` ( `host`, `name`, `username`, `position`, `api_key`, `active` ) VALUES ( :ezcValue1, :ezcValue2, :ezcValue3, :ezcValue4, :ezcValue5, :ezcValue6 )&#039; in /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php:833
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php(315): ezcPersistentSession->performQuery()
+#1 /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php(103): ezcPersistentSaveHandler->saveInternal()
+#2 /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php(454): ezcPersistentSaveHandler->saveOrUpdate()
+#3 /home/livechat/public_html/lib/core/lhcore/lhdbtrait.php(16): ezcPersistentSession->saveOrUpdate()
+#4 /home/livechat/public_html/cache/compiledtemplates/36a11a8ae63092bad057820adee40992.php(2): erLhAbstractModelRestAPIKeyRemote->saveThis()
+#5 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#6 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#7 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#8 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php
+    [line:protected] => 833
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php
+                    [line] => 315
+                    [function] => performQuery
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php
+                    [line] => 103
+                    [function] => saveInternal
+                    [class] => ezcPersistentSaveHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 454
+                    [function] => saveOrUpdate
+                    [class] => ezcPersistentSaveHandler
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhdbtrait.php
+                    [line] => 16
+                    [function] => saveOrUpdate
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/36a11a8ae63092bad057820adee40992.php
+                    [line] => 2
+                    [function] => saveThis
+                    [class] => erLhAbstractModelRestAPIKeyRemote
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/36a11a8ae63092bad057820adee40992.php
+                        )
+
+                    [function] => include
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [originalMessage] => A query failed internally in Persistent Object: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'api_key' at row 1 Query: 'INSERT INTO `lh_abstract_rest_api_key_remote` ( `host`, `name`, `username`, `position`, `api_key`, `active` ) VALUES ( :ezcValue1, :ezcValue2, :ezcValue3, :ezcValue4, :ezcValue5, :ezcValue6 )'
+)
+
+Nov 10 15:52:01 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class "erLhAbstractModel" not found
+    [string:Error:private] => Error: Class "erLhAbstractModel" not found in /home/livechat/public_html/cache/compiledtemplates/8f895a94ae9e1cbb060be731368124f4.php:2
+Stack trace:
+#0 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include()
+#1 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#2 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/cache/compiledtemplates/8f895a94ae9e1cbb060be731368124f4.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Nov 10 15:52:06 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Call to a member function getFields() on bool
+    [string:Error:private] => Error: Call to a member function getFields() on bool in /home/livechat/public_html/cache/compiledtemplates/d7791c47a3c35db73203538fe1d83e09.php:1
+Stack trace:
+#0 /home/livechat/public_html/lib/core/lhtpl/tpl.php(572): include()
+#1 /home/livechat/public_html/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
+#2 /home/livechat/public_html/cache/compiledtemplates/93290ab4f1ef5f1931960842ca41d118.php(2): erLhcoreClassTemplate->fetch()
+#3 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#4 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#5 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#6 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/cache/compiledtemplates/d7791c47a3c35db73203538fe1d83e09.php
+    [line:protected] => 1
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhtpl/tpl.php
+                    [line] => 572
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhtpl/tpl.php
+                    [line] => 545
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/93290ab4f1ef5f1931960842ca41d118.php
+                    [line] => 2
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/93290ab4f1ef5f1931960842ca41d118.php
+                        )
+
+                    [function] => include
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Nov 10 15:52:30 [Warning] [default] [default] ezcPersistentObjectNotFoundException Object
+(
+    [message:protected] => A query failed internally in Persistent Object: No object of class &#039;erLhcoreClassModelChat&#039; with id &#039;&#039;.
+    [string:Exception:private] => ezcPersistentObjectNotFoundException: A query failed internally in Persistent Object: No object of class &#039;erLhcoreClassModelChat&#039; with id &#039;&#039;. in /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/load_handler.php:154
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/load_handler.php(41): ezcPersistentLoadHandler->loadIntoObject()
+#1 /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /home/livechat/public_html/cache/compiledtemplates/0062c4aa8e6fbe60488a1658ebf0d6a2.php(2): ezcPersistentSession->load()
+#3 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#4 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#5 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#6 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/load_handler.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 41
+                    [function] => loadIntoObject
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/0062c4aa8e6fbe60488a1658ebf0d6a2.php
+                    [line] => 2
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/0062c4aa8e6fbe60488a1658ebf0d6a2.php
+                        )
+
+                    [function] => include
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [originalMessage] => A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelChat' with id ''.
+)
+
+Nov 12 11:52:02 [Warning] [default] [default] TypeError Object
+(
+    [message:protected] => get_class(): Argument #1 ($object) must be of type object, bool given
+    [string:Error:private] => TypeError: get_class(): Argument #1 ($object) must be of type object, bool given in /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php:358
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php(72): ezcPersistentSaveHandler->updateInternal()
+#1 /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php(431): ezcPersistentSaveHandler->update()
+#2 /home/livechat/public_html/cache/compiledtemplates/4f12d172b315a16ae657ded7292de38b.php(2): ezcPersistentSession->update()
+#3 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#4 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#5 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#6 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php
+    [line:protected] => 358
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/handlers/save_handler.php
+                    [line] => 72
+                    [function] => updateInternal
+                    [class] => ezcPersistentSaveHandler
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 431
+                    [function] => update
+                    [class] => ezcPersistentSaveHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/4f12d172b315a16ae657ded7292de38b.php
+                    [line] => 2
+                    [function] => update
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/4f12d172b315a16ae657ded7292de38b.php
+                        )
+
+                    [function] => include
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Nov 14 16:29:36 [Warning] [default] [default] PDOException Object
+(
+    [message:protected] => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'chat_duration' cannot be null
+    [string:Exception:private] => PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'chat_duration' cannot be null in /home/livechat/public_html/cache/compiledtemplates/10ff3d7d466a3a65a7a1b3c172eaa5ff.php:2
+Stack trace:
+#0 /home/livechat/public_html/cache/compiledtemplates/10ff3d7d466a3a65a7a1b3c172eaa5ff.php(2): PDO->query()
+#1 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(106): include('...')
+#2 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#3 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#4 {main}
+    [code:protected] => 23000
+    [file:protected] => /home/livechat/public_html/cache/compiledtemplates/10ff3d7d466a3a65a7a1b3c172eaa5ff.php
+    [line:protected] => 2
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/cache/compiledtemplates/10ff3d7d466a3a65a7a1b3c172eaa5ff.php
+                    [line] => 2
+                    [function] => query
+                    [class] => PDO
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 106
+                    [args] => Array
+                        (
+                            [0] => /home/livechat/public_html/cache/compiledtemplates/10ff3d7d466a3a65a7a1b3c172eaa5ff.php
+                        )
+
+                    [function] => include
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => Array
+        (
+            [0] => 23000
+            [1] => 1048
+            [2] => Column 'chat_duration' cannot be null
+        )
+
+)
+
+Nov 24 06:24:14 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] No such file or directory
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/livechat/public_html/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /home/livechat/public_html/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /home/livechat/public_html/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /home/livechat/public_html/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /home/livechat/public_html/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /home/livechat/public_html/index.php(78): erLhcoreClassLog::write()
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Nov 24 06:24:14 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] No such file or directory
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/livechat/public_html/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /home/livechat/public_html/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /home/livechat/public_html/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /home/livechat/public_html/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /home/livechat/public_html/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /home/livechat/public_html/index.php(78): erLhcoreClassLog::write()
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Nov 24 06:24:14 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] No such file or directory
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/livechat/public_html/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /home/livechat/public_html/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /home/livechat/public_html/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /home/livechat/public_html/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /home/livechat/public_html/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /home/livechat/public_html/index.php(78): erLhcoreClassLog::write()
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Nov 24 06:24:14 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] No such file or directory
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/livechat/public_html/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /home/livechat/public_html/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /home/livechat/public_html/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /home/livechat/public_html/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /home/livechat/public_html/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /home/livechat/public_html/index.php(78): erLhcoreClassLog::write()
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Nov 24 11:24:16 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] No such file or directory
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/livechat/public_html/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /home/livechat/public_html/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /home/livechat/public_html/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /home/livechat/public_html/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /home/livechat/public_html/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /home/livechat/public_html/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(157): erLhcoreClassLog::write()
+#7 /home/livechat/public_html/lib/core/lhcore/lhmodule.php(626): erLhcoreClassModule::runModule()
+#8 /home/livechat/public_html/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /home/livechat/public_html/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /home/livechat/public_html/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 157
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /home/livechat/public_html/lib/core/lhcore/lhmodule.php
+                    [line] => 626
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /home/livechat/public_html/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
